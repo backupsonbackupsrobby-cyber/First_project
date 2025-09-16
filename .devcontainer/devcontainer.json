@@ -1,0 +1,12 @@
+{
+  "name": "C21 Modding Lab",
+  "build": { "dockerfile": "Dockerfile" },
+  "postCreateCommand": "chmod +x /setup.sh && /setup.sh",
+  "remoteEnv": {
+    "DEVICE_ID": "${DEVICE_ID}",
+    "MAGISK_TOKEN": "${MAGISK_TOKEN}"
+  },
+  "mounts": [
+    "source=${localWorkspaceFolder}/payloads,target=/workspace/payloads,type=bind"
+  ]
+}
