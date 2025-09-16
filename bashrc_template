@@ -1,0 +1,11 @@
+# 🧨 Modding Lab Launchers
+alias patchboot='bash ~/First_project/tools/patch.sh ~/First_project/payloads/boot.img'
+alias exportmod='bash ~/First_project/tools/export.sh'
+alias flashmod='bash ~/First_project/tools/flash.sh'
+alias injectksu='bash ~/First_project/tools/kernelsu.sh ~/First_project/payloads/boot.img'
+
+# 🧠 Terminal UI Launcher (if menu.sh is added)
+alias modmenu='bash ~/First_project/tools/menu.sh'
+
+# 🛰️ Fix WiFuX alias (line was clipped)
+alias wifux='cd ~/WiFuX && bash launch.sh'
