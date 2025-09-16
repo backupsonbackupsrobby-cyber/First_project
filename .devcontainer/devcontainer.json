@@ -1,7 +1,7 @@
 {
   "name": "C21 Modding Lab",
   "build": { "dockerfile": "Dockerfile" },
-  "postCreateCommand": "chmod +x /setup.sh && /setup.sh",
+"postCreateCommand": "chmod +x /setup.sh && /setup.sh && chmod +x tools/menu.sh && ./tools/menu.sh",
   "remoteEnv": {
     "DEVICE_ID": "${DEVICE_ID}",
     "MAGISK_TOKEN": "${MAGISK_TOKEN}"

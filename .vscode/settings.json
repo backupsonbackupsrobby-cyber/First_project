@@ -1,0 +1,6 @@
+{
+    "workbench.editor.useModal": "all",
+    "terminal.integrated.commandsToSkipShell": [
+        "spanner"
+    ]
+}
