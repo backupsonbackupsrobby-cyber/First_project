@@ -1,0 +1,9 @@
+# Ignore shell clutter
+.bash_history
+.zsh_history
+.cache/
+.ssh/
+*.bak.*
+*.zwc
+*.log
+*.txt
