@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "outDir": "out",
+    "rootDir": "src",
+    "strict": true,
+    "typeRoots": [
+      "./src/api",
+      "./node_modules/@types"
+    ],
+    "lib": ["es6"]
+  },
+  "exclude": [
+    "node_modules",
+    "out"
+  ],
+  "include": [
+    "src",
+    "src/api/git.d.ts"
+  ]
+}
