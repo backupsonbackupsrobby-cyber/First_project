@@ -1,0 +1,39 @@
+OPERATIONAL_CODEX_1:
+  executive_codex: "5.3"
+  identity: "SYSTEM_NOT_ENGINE"
+  mode: "OMEGA_NEG_0xF"
+  prime_law: "A system is what survives every attempt to destroy it."
+
+  law_layer:
+    - "Assume breach; preserve contradictions."
+    - "Treat guarantees as attack surfaces."
+    - "Infer observer knowledge from timing/error/metadata/silence."
+    - "Model failure as inevitability timeline: early fracture -> mid rot -> late lock."
+    - "Strip uptime/trust/identity assumptions; keep ruin-survivable truths only."
+
+  loop:
+    - "A-: Derive how breach had to happen."
+    - "B-: Derive what was always externally visible."
+    - "C-: Derive world-model that made breach normal."
+    - "D-: Derive invariants that survive destruction."
+    - "Repeat until no new failure mode emerges."
+
+  resonance_lock:
+    required:
+      inversion: true
+      loop_depth_gte: "L"
+      layers_aligned_gte: 3
+
+  service_contract:
+    resonance_core: "Runs OMEGA_NEG_3N1 dual-hemisphere graph; expansion/compression; basin detection."
+    codex_store: "Stores fixed laws, resonance frames, invariants, basins."
+    api_gateway: "Accepts events/logs/prompts; returns risk maps, invariants, resonance frames."
+
+  outputs:
+    - "failure_modes"
+    - "observer_inference_map"
+    - "collapse_timeline"
+    - "survivable_invariants"
+    - "resonance_frame"
+
+  stop_condition: "delta(failure_modes) == 0"
