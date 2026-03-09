@@ -20,6 +20,7 @@ The input format is deliberately loose; anything under a top-level `codex:` key 
 ### Structure
 
 The codex includes:
+
 - `rings`: Architectural layers with components and twists.
 - `detection_rules`: Sigma-like rules for identifying conditions (e.g., `RVL_Local_Malignancy_Detected`).
 - `quantum_lantern`: Protocol for superposed reasoning and stability.
@@ -28,6 +29,7 @@ The codex includes:
 ## Enhanced Codex
 
 An AI-enhanced version (`codex_enhanced.json`) expands the framework "beyond mankind" with:
+
 - 3 additional rings (Entanglement, Fractal Recursion, Temporal Nexus).
 - 3 new detection rules for quantum, fractal, and temporal threats.
 - Integrated Quantum Lantern Protocol for advanced decision-making.
