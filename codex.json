@@ -1,0 +1,138 @@
+{
+  "codex_name": "Triple Ring Paradox Engine",
+  "version": "1.0",
+  "author": "Phill (TENET) + ESP Logic",
+  "rings": [
+    {
+      "id": 1,
+      "name": "Veil of Outer Sight",
+      "symbolic_role": "Perception",
+      "legacy_mapping": "Perimeter Security",
+      "description": "Where the world ends and the system begins. A sentry consciousness that predicts intent.",
+      "components": [
+        {
+          "name": "Gatekeepers",
+          "legacy": "Firewalls",
+          "function": "Enforce boundary rules and decide which entities may approach.",
+          "behavior": "Speaks in absolutes; allows or denies based on codified law."
+        },
+        {
+          "name": "River of Sorting",
+          "legacy": "Network Filtering",
+          "function": "Sorts and shapes traffic based on origin, destination, and protocol.",
+          "behavior": "Weighs each packet like a traveler crossing a guarded border."
+        },
+        {
+          "name": "Oracle of Patterns",
+          "legacy": "Traffic Inspection",
+          "function": "Inspects flows for anomalies, malformed structures, and hostile signatures.",
+          "behavior": "Reads the pattern of movement rather than individual packets."
+        }
+      ],
+      "unexpected_twist": "Does not merely block threats; it anticipates and profiles intent."
+    },
+    {
+      "id": 2,
+      "name": "Forge of Inner Truth",
+      "symbolic_role": "Identity",
+      "legacy_mapping": "System Hardening",
+      "description": "Where the system decides what it is allowed to be. Identity crystallization.",
+      "components": [
+        {
+          "name": "Purging of Ancestral Flaws",
+          "legacy": "Patch Management",
+          "function": "Removes inherited weaknesses from upstream creators.",
+          "behavior": "Treats each patch as a ritual shedding of flawed lineage."
+        },
+        {
+          "name": "Binding of Form",
+          "legacy": "Secure Configuration",
+          "function": "Defines secure defaults and enforces least privilege.",
+          "behavior": "Rejects unsafe defaults as lies; configuration becomes canonical truth."
+        },
+        {
+          "name": "Hierarchy of Names",
+          "legacy": "Access Control",
+          "function": "Controls who can act, and with what authority.",
+          "behavior": "Only entities with the correct name and role may shape the inner world."
+        }
+      ],
+      "unexpected_twist": "Does not just protect the system; it defines its ontology and allowed states."
+    },
+    {
+      "id": 3,
+      "name": "Echo of Living Memory",
+      "symbolic_role": "Memory",
+      "legacy_mapping": "Detection & Response",
+      "description": "Where the system becomes aware of itself. Reflexive consciousness.",
+      "components": [
+        {
+          "name": "Chronicle of Moments",
+          "legacy": "Logging",
+          "function": "Records events as a time-stamped memory stream.",
+          "behavior": "Treats each log entry as a fragment of lived experience."
+        },
+        {
+          "name": "Whisper of Distortion",
+          "legacy": "Intrusion Detection",
+          "function": "Detects anomalies, distortions, and hostile patterns.",
+          "behavior": "Feels when reality bends away from intended behavior."
+        },
+        {
+          "name": "Rewriting of Fate",
+          "legacy": "Incident Response",
+          "function": "Contains, recovers, and restores integrity after disruption.",
+          "behavior": "Rewrites the system’s near-future to exclude the damage path."
+        }
+      ],
+      "unexpected_twist": "Does not merely react; it rewrites the system’s future trajectory after impact."
+    }
+  ],
+  "detection_rules": [
+    {
+      "title": "RVL_Local_Malignancy_Detected",
+      "id": "rvl-001-local",
+      "status": "integrated",
+      "description": "A Lethal Divergence (Spatial Contradiction) was detected in a specific Identity Root, \nbut systemic viability favors Local Quarantine over Global Stasis.\n",
+      "logsource": {
+        "product": "digital_thymus",
+        "service": "treg_gate"
+      },
+      "detection": {
+        "selection": {
+          "leukemia_trigger": "SPATIAL_CONTRADICTION",
+          "treg_evaluation": "LOCAL_QUARANTINE_ONLY"
+        },
+        "condition": "selection"
+      },
+      "falsepositives": [
+        "Legitimate hardware failure in a Mirror Node (Mesh Noise)."
+      ],
+      "level": "critical",
+      "action": [
+        {
+          "Invoke": "MARROW_RESECTION_IDENTITY_ROOT(subject_id)"
+        },
+        {
+          "Increment": "IMMUNE_RECORD_SEVERITY(Global)"
+        },
+        {
+          "Requirement": "KINETIC_ANCHOR_MASS_MULTIPLIER(1.5x)"
+        }
+      ]
+    }
+  ],
+  "meta": {
+    "esp_alignment": {
+      "LEVEL": "Ring I — Perception / Outer Sight",
+      "STRUCTURE": "Ring II — Identity / Inner Truth",
+      "TENET": "Ring III — Memory / Reflexive Consciousness"
+    },
+    "usage_modes": [
+      "training_ritual",
+      "client_diagnostic_model",
+      "architectural_reference",
+      "symbolic_diagram_source"
+    ]
+  }
+}

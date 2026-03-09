@@ -60,6 +60,28 @@ codex:
           function: "Contains, recovers, and restores integrity after disruption."
           behavior: "Rewrites the system’s near-future to exclude the damage path."
       unexpected_twist: "Does not merely react; it rewrites the system’s future trajectory after impact."
+  detection_rules:
+    - title: RVL_Local_Malignancy_Detected
+      id: rvl-001-local
+      status: integrated
+      description: |
+        A Lethal Divergence (Spatial Contradiction) was detected in a specific Identity Root, 
+        but systemic viability favors Local Quarantine over Global Stasis.
+      logsource:
+        product: digital_thymus
+        service: treg_gate
+      detection:
+        selection:
+          leukemia_trigger: 'SPATIAL_CONTRADICTION'
+          treg_evaluation: 'LOCAL_QUARANTINE_ONLY'
+        condition: selection
+      falsepositives:
+        - Legitimate hardware failure in a Mirror Node (Mesh Noise).
+      level: critical
+      action: 
+        - Invoke: MARROW_RESECTION_IDENTITY_ROOT(subject_id)
+        - Increment: IMMUNE_RECORD_SEVERITY(Global)
+        - Requirement: KINETIC_ANCHOR_MASS_MULTIPLIER(1.5x) # "Thicken" the air for everyone else
   meta:
     esp_alignment:
       LEVEL: "Ring I — Perception / Outer Sight"
