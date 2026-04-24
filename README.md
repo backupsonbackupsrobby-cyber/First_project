@@ -54,3 +54,37 @@ To generate or extend entries automatically, you can provide your current codex 
 ## Other notes
 
 The repository also contains a skill template (`SKILL.md`) for documenting workflows relevant to this project.
+
+---
+
+## Repository Map
+
+This section answers: **"Which repo is canonical?"** and **"Where do prompts and rules live?"**
+
+**This repo (`First_project`) is the canonical entry point** for the ESP codex framework, codex generators, and detection-rule definitions inside the codex contract (e.g., `codex_input.yaml` → `codex.json`).
+
+**Where do prompts and rules live?**
+Runtime prompts and engine-specific rule packs should live in engine repos (runtime consumers), for example:
+https://github.com/AiTenetAgency101/ENGINE2
+
+This repo (`First_project`) remains canonical for the codex framework + generators and for detection-rule definitions inside the codex contract.
+
+### Related Repositories
+
+- backupsonbackupsrobby-cyber/Prompt (public, archived — legacy only)
+  Legacy snippet scratchpad. This repo is archived and read-only; it is not canonical. For active codex work, use this repo (`First_project`) instead.
+  https://github.com/backupsonbackupsrobby-cyber/Prompt
+
+- backupsonbackupsrobby-cyber/restricted-aibot (public, placeholder)
+  Currently contains only a license file. It is a placeholder and should not be treated as canonical. Start here (`First_project`) for any codex work.
+  https://github.com/backupsonbackupsrobby-cyber/restricted-aibot
+
+- AiTenetAgency101/ENGINE2 (public, ecosystem runtime — optional context)
+  A separate runtime and stack repo positioned as an enterprise security and AI agent framework. Mentioned here for ecosystem awareness only; it is independently maintained and not a dependency of this repo.
+  https://github.com/AiTenetAgency101/ENGINE2
+
+- backupsonbackupsrobby-cyber/atmospheric-truth-layer (public, active — witness/anchors/attestation)
+  Witness, attestation, and anchor artifacts layer (ANCHOR.json, WITNESS-ANCHORS.md, and multiple *-anchor.json files). Mentioned for ecosystem awareness; not a dependency of this repo.
+  https://github.com/backupsonbackupsrobby-cyber/atmospheric-truth-layer
+
+For a full tree overview of all repos and their statuses, see `REPO_TREE.md` in this repository.
