@@ -54,3 +54,31 @@ To generate or extend entries automatically, you can provide your current codex 
 ## Other notes
 
 The repository also contains a skill template (`SKILL.md`) for documenting workflows relevant to this project.
+
+---
+
+## Repository Map
+
+This section answers: **"Which repo is canonical?"** and **"Where do prompts live?"**
+
+**This repo (`First_project`) is the canonical entry point** for the ESP codex framework, generators, and detection rules.
+
+### Related Repositories
+
+- **backupsonbackupsrobby-cyber/vs-studioPROMPT** (private, active)
+  VS Code prompt and rule authoring workspace. This is where rule drafts and spec files like `RVL_Local_Malignancy_Detected` are written. Not public.
+  https://github.com/backupsonbackupsrobby-cyber/vs-studioPROMPT
+
+- **backupsonbackupsrobby-cyber/Prompt** (public, archived — legacy only)
+  Legacy snippet scratchpad. Contains early concept fragments. This repo is archived and read-only; it is not canonical. For active codex work, use this repo (`First_project`) instead.
+  https://github.com/backupsonbackupsrobby-cyber/Prompt
+
+- **backupsonbackupsrobby-cyber/restricted-aibot** (public, placeholder)
+  Currently contains only a license file. It is a placeholder and should not be treated as canonical. Start here (`First_project`) for any codex or prompt work.
+  https://github.com/backupsonbackupsrobby-cyber/restricted-aibot
+
+- **AiTenetAgency101/ENGINE2** (public, ecosystem runtime — optional context)
+  A separate runtime and stack repo positioned as an enterprise security and AI agent framework. Mentioned here for ecosystem awareness only; it is independently maintained and not a dependency of this repo.
+  https://github.com/AiTenetAgency101/ENGINE2
+
+For a full tree overview of all repos and their statuses, see `REPO_TREE.md` in this repository.
