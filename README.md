@@ -54,3 +54,29 @@ To generate or extend entries automatically, you can provide your current codex 
 ## Other notes
 
 The repository also contains a skill template (`SKILL.md`) for documenting workflows relevant to this project.
+
+## Repository Map
+
+`backupsonbackupsrobby-cyber/First_project` is the **canonical** source for the codex framework, generators, and detection-rule definitions.
+
+### Related repositories
+
+- https://github.com/backupsonbackupsrobby-cyber/Prompt — archived legacy prompts (read-only reference)
+- https://github.com/backupsonbackupsrobby-cyber/restricted-aibot — placeholder/minimal bot scaffold
+- https://github.com/AiTenetAgency101/ENGINE2 — engine runtime that consumes `codex.json`; prompts and rules are intended to live here at runtime
+
+### Quick answers
+
+**Which repo is canonical?**
+`backupsonbackupsrobby-cyber/First_project` — codex schema, generator, and doctrine files live here.
+
+**Where do prompts and rules live at runtime?**
+In engine repos (runtime consumers). See https://github.com/AiTenetAgency101/ENGINE2
+
+**What is `Prompt`?**
+Archived legacy prompt store — kept for historical reference, no longer actively maintained.
+
+**What is `restricted-aibot`?**
+Minimal placeholder bot scaffold — not yet active.
+
+See REPO_TREE.md for the full ecosystem map.
