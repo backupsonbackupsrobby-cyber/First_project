@@ -32,8 +32,8 @@ backupsonbackupsrobby-cyber/
 │   URL     : https://github.com/backupsonbackupsrobby-cyber/Prompt
 │
 ├── restricted-aibot             [placeholder] [public]
-│   Purpose : Placeholder repository. Currently contains only a LICENSE file.
-│             No active code or documentation.
+│   Purpose : Placeholder repository with minimal content.
+│             Not a source for active code or primary documentation.
 │   Note    : Not canonical. If you landed here from a link, go to First_project.
 │   URL     : https://github.com/backupsonbackupsrobby-cyber/restricted-aibot
 │
