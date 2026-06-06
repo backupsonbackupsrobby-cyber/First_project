@@ -55,13 +55,16 @@ AiTenetAgency101/
 
 ## Status Key
 
-| Status              | Meaning                                              |
-|---------------------|------------------------------------------------------|
-| CANONICAL           | Authoritative source of truth; start here            |
-| active              | Actively maintained                                  |
-| archived            | Read-only; no longer maintained; legacy reference    |
-| placeholder         | Repo exists but has no meaningful content yet        |
-| witness/anchors     | Stores attestation and anchor artifacts              |
+| Status                        | Meaning                                              |
+|-------------------------------|------------------------------------------------------|
+| CANONICAL                     | Authoritative source of truth; start here            |
+| active                        | Actively maintained                                  |
+| archived                      | Read-only; no longer maintained                      |
+| legacy                        | Historical or superseded repo retained for reference |
+| placeholder                   | Repo exists but has no meaningful content yet        |
+| public                        | Publicly accessible repository                       |
+| witness/anchors/attestation   | Stores witness, attestation, and anchor artifacts    |
+| separate ecosystem            | Independently maintained; not part of the main stack |
 
 ---
 
