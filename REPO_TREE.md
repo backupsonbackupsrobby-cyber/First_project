@@ -45,8 +45,7 @@ backupsonbackupsrobby-cyber/
 
 AiTenetAgency101/
 └── ENGINE2                      [active] [public] [separate ecosystem]
-    Purpose : Runtime and stack repo — "Quantum Lantern Protocol" enterprise
-              security, satellite-verified state, and AI agent framework.
+    Purpose : Separate runtime/engine repository for this broader ecosystem.
               Independently maintained; not a dependency of First_project.
     Note    : Mentioned for ecosystem awareness only. Maintained by AiTenetAgency101.
     URL     : https://github.com/AiTenetAgency101/ENGINE2
