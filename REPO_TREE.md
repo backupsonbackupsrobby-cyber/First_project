@@ -55,15 +55,18 @@ AiTenetAgency101/
 
 ---
 
-## Status Key
+## Tag Key
 
-| Status      | Meaning                                              |
-|-------------|------------------------------------------------------|
-| CANONICAL   | Authoritative source of truth; start here            |
-| active      | Actively maintained                                  |
-| archived    | Read-only; no longer maintained; legacy reference    |
-| placeholder | Repo exists but has no meaningful content yet        |
-| private     | Not publicly accessible                              |
+| Tag                | Category     | Meaning                                              |
+|--------------------|--------------|------------------------------------------------------|
+| CANONICAL          | role         | Authoritative source of truth; start here            |
+| active             | lifecycle    | Actively maintained                                  |
+| archived           | lifecycle    | Read-only; no longer maintained                      |
+| placeholder        | lifecycle    | Repo exists but has no meaningful content yet        |
+| public             | visibility   | Publicly accessible                                  |
+| private            | visibility   | Not publicly accessible                              |
+| legacy             | relationship | Older repo retained for historical/reference value   |
+| separate ecosystem | relationship | Mentioned for awareness; independently maintained and not part of this repository ecosystem's dependency chain |
 
 ---
 
