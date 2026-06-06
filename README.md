@@ -76,7 +76,7 @@ This repo (`First_project`) remains canonical for the codex framework + generato
   https://github.com/backupsonbackupsrobby-cyber/Prompt
 
 - backupsonbackupsrobby-cyber/restricted-aibot (public, placeholder)
-  Currently contains only a license file. It is a placeholder and should not be treated as canonical. Start here (`First_project`) for any codex work.
+  This appears to be a placeholder/minimal repository and should not be treated as canonical. Start here (`First_project`) for any codex work.
   https://github.com/backupsonbackupsrobby-cyber/restricted-aibot
 
 - AiTenetAgency101/ENGINE2 (public, ecosystem runtime — optional context)
