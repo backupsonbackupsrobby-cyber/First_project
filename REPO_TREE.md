@@ -26,7 +26,7 @@ backupsonbackupsrobby-cyber/
 │
 ├── Prompt                       [archived] [legacy] [public]
 │   Purpose : Early concept scratchpad / snippet dump.
-│             Contains fragments like root_os.json, codex53.ts placeholders.
+│             Contains legacy fragments and placeholder material.
 │             Not canonical. Read-only (archived).
 │   Note    : Do not use as a starting point. Refer to First_project instead.
 │   URL     : https://github.com/backupsonbackupsrobby-cyber/Prompt
