@@ -74,7 +74,7 @@ This section answers: **"Which repo is canonical?"** and **"Where do prompts liv
   https://github.com/backupsonbackupsrobby-cyber/Prompt
 
 - **backupsonbackupsrobby-cyber/restricted-aibot** (public, placeholder)
-  Currently contains only a license file. It is a placeholder and should not be treated as canonical. Start here (`First_project`) for any codex or prompt work.
+  Currently contains only a license file. It is a placeholder and should not be treated as canonical. Start at `First_project`; for authoring prompts/rules use `vs-studioPROMPT` (private).
   https://github.com/backupsonbackupsrobby-cyber/restricted-aibot
 
 - **AiTenetAgency101/ENGINE2** (public, ecosystem runtime — optional context)
