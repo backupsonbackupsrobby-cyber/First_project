@@ -77,8 +77,8 @@ This section answers: **"Which repo is canonical?"** and **"Where do prompts liv
   Currently contains only a license file. It is a placeholder and should not be treated as canonical. Start at `First_project`; for authoring prompts/rules use `vs-studioPROMPT` (private).
   https://github.com/backupsonbackupsrobby-cyber/restricted-aibot
 
-- **AiTenetAgency101/ENGINE2** (public, ecosystem runtime — optional context)
-  A separate runtime and stack repo positioned as an enterprise security and AI agent framework. Mentioned here for ecosystem awareness only; it is independently maintained and not a dependency of this repo.
+- **AiTenetAgency101/ENGINE2** (public, separate runtime/stack repo)
+  Independently maintained and not a dependency of this repo.
   https://github.com/AiTenetAgency101/ENGINE2
 
 For a full tree overview of all repos and their statuses, see `REPO_TREE.md` in this repository.
