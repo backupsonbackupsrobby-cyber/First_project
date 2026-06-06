@@ -80,7 +80,7 @@ This repo (`First_project`) remains canonical for the codex framework + generato
   https://github.com/backupsonbackupsrobby-cyber/restricted-aibot
 
 - AiTenetAgency101/ENGINE2 (public, ecosystem runtime — optional context)
-  A separate runtime and stack repo positioned as an enterprise security and AI agent framework. Mentioned here for ecosystem awareness only; it is independently maintained and not a dependency of this repo.
+  A separate engine/runtime consumer repo. Mentioned here for ecosystem awareness only; it is independently maintained and not a dependency of this repo.
   https://github.com/AiTenetAgency101/ENGINE2
 
 - backupsonbackupsrobby-cyber/atmospheric-truth-layer (public, active — witness/anchors/attestation)
